@@ -1,6 +1,7 @@
 // Root variables
+$sidebar-width: 250px;
 :root {
-  --sidebar-width: 250px;
+  --sidebar-width: #{$sidebar-width};
 }
 
 // Color variables
@@ -15,14 +16,19 @@ $card-radius: 1rem;
 $card-shadow: 0 4px rgba (0, 0, 0, 0.08);
 $card-transition: transform 0.2s;
 
+// Mixin Card
 @mixin card-style($radius, $shadow, $transition){
   border: none;
   border-radius: $radius;
   box-shadow: $shadow;
   transition: $transition;
-
 }
 
+// Mixin Sidebar
+@mixin sidebar-link-active{
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
 body {
   background: $body-background;
   color: $body-color;
@@ -64,8 +70,7 @@ header {
 
     &.active,
     &:hover {
-      background: rgba(255, 255, 255, 0.15);
-      color: white;
+      @include sidebar-link-active;
     }
   }
 }
