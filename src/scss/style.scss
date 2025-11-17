@@ -10,6 +10,11 @@ $body-color: #2d3748;
 $sidebar-background: #2d3748;
 $text-muted-chart: #718096;
 
+// Card variables
+$card-radius: 1rem;
+$card-shadow: 0 4px rgba (0, 0, 0, 0.08);
+$card-transition: transform 0.2s;
+
 body {
   background: $body-background;
   color: $body-color;
@@ -21,11 +26,15 @@ header {
   }
 }
 
+// .card {
+//   border: none;
+//   border-radius: 1rem;
+//   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+//   transition: transform 0.2s;
+// }
+
 .card {
-  border: none;
-  border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s;
+  @include card-style ($card-radius, $card-shadow, $card-transition);
 }
 
 // Stat card hover effect
