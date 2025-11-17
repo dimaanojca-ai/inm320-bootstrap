@@ -7,7 +7,7 @@
     "amandaisawesome": "sass --watch src/scss:public/assets/css",
     "start": "concurrently \"npm run amandaisawesome\" \"npm run goservergo \""
   },
-  "author": "",
+  "author": "Jertrude Dimaano",
   "license": "ISC",
   "description": "",
   "devDependencies": {
