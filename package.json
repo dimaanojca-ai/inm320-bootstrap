@@ -9,10 +9,11 @@
   },
   "author": "Jertrude Dimaano",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "concurrently": "^9.2.1",
     "lite-server": "^2.6.1",
     "sass": "^1.94.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
