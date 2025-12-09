@@ -1,0 +1,63 @@
+{
+    "statistics": [
+        {
+            "title": "Unresolved",
+            "count": 60,
+            "icon": "bi-exclamation-circle",
+            "id": "unresolvedCount"
+        },
+        {
+            "title": "Overdue",
+            "count": 16,
+            "icon": "bi-clock"
+        },
+        {
+            "title": "Open",
+            "count": 43,
+            "icon": "bi-folder-open"
+        },
+        {
+            "title": "On hold",
+            "count": 64,
+            "icon": "bi-pause-circle"
+        }
+    ],
+    "unresolvedTickets": [
+        {
+            "title": "Waiting on Feature Request",
+            "count": 4238
+        },
+        {
+            "title": "Awaiting Customer Response",
+            "count": 1005
+        },
+        {
+            "title": "Awaiting Developer Fix",
+            "count": 914
+        },
+        {
+            "title": "Pending",
+            "count": 281
+        }
+    ],
+    "tasks": [
+        {
+            "id": "task1",
+            "title": "Finish ticket update",
+            "badge": "Urgent",
+            "badgeClass": "bg-warning"
+        },
+        {
+            "id": "task2",
+            "title": "Create new ticket example",
+            "badge": "New",
+            "badgeClass": "bg-success"
+        },
+        {
+            "id": "task3",
+            "title": "Update ticket report",
+            "badge": "Default",
+            "badgeClass": "bg-secondary"
+        }
+    ]
+}
